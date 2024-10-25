@@ -1,0 +1,137 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+/* Fundo do site */
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegação */
+.navbar-nav {
+    background-color: #111;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.botao-entrar {
+    background-color: #444;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.botao-entrar:hover {
+    background-color: #666;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #111;
+}
+
+header h1, header h3 {
+    color: #fff;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+header h3 {
+    font-size: 18px;
+}
+
+/* Seção de conteúdo principal */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seção do formulário */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto; /* Espaçamento para empurrar o formulário para baixo */
+    padding: 25px;
+    width: 90%;
+    max-width: 450px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.15);
+}
+
+/* Formulário */
+form {
+    width: 100%;
+}
+
+label {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Botão de envio */
+button {
+    background-color: #444;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Texto "Fale conosco" */
+h2 {
+    color: #fff;
+    font-size: 24px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+/* Imagem */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #555;
+}
